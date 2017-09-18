@@ -1,12 +1,16 @@
 {{ partial "header" . }}
 
+<title>{{ .Title }}, {{.Site.Params.Description}}</title>
+
 <main>
 
     <div class="intro">
 
+        <img alt="avatar" src="{{ .Site.Params.Avatar }}" style="width: 26rem;height: 26rem">
+
         <h1>{{ .Site.Title }}</h1>
 
-        <h2>{{ markdownify .Site.Params.Description }}</h2>
+        <h3>{{ markdownify .Site.Params.Description }}</h3>
 
     </div>
 
