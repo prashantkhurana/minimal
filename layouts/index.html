@@ -1,5 +1,7 @@
 {{ partial "header" . }}
 
+<title>{{ .Title }}, {{.Site.Params.Description}}</title>
+
 <main>
     <div class="intro">
         {{ with .Site.Params.profilePic }} <img class="profile" src="{{ . }}"> {{ end }}
