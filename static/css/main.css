@@ -23,7 +23,7 @@ img {
 /* Homepage */
 
 .intro {
-    transform: translateY(22vh);
+    transform: translateY(10vh);
 }
 
 .intro > h1 {
@@ -45,8 +45,8 @@ img {
 /* Profile picture */
 
 .profile {
-    width: 10vh;
-    height: 10vh;
+    width: 30vh;
+    height: 30vh;
     border-radius: 50%;
 }
 
