@@ -3,6 +3,8 @@
 Personal blog theme powered by [Hugo](https://gohugo.io).
 A live demo is available [here](https://themes.gohugo.io/theme/minimal/).
 
+This is my personal fork of the theme since its archived now. 
+
 ## Installation
 
 You can install the theme either as a clone or submodule.
